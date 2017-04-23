@@ -1,0 +1,6 @@
+body {
+  background: #f0f; }
+  body a {
+    color: #ffccff; }
+  body hover:a {
+    color: black; }

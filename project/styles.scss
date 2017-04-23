@@ -1,0 +1,12 @@
+$color: #f0f;
+
+body{
+	background: $color;
+
+	a{
+	color: lighten($color, 40%);
+	}
+	hover:a{
+	color: black;
+	}
+}
