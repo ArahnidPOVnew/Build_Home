@@ -1,6 +1,89 @@
 body {
-  background: #f0f; }
-  body a {
-    color: #ffccff; }
-  body hover:a {
-    color: black; }
+  font-family: Ubuntu,Arial,sans-serif;
+  padding: 0;
+  margin: 0; }
+
+.container {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto; }
+
+.b-header {
+  height: 112px;
+  position: relative; }
+  .b-header .logo {
+    width: 158px;
+    height: 23px;
+    color: #434343;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 36px; }
+  .b-header ul {
+    position: absolute;
+    float: right;
+    margin-top: -12px;
+    margin-bottom: 50px;
+    padding-left: 72%; }
+    .b-header ul li {
+      float: left;
+      margin-right: 35px;
+      width: 8px;
+      height: 16px; }
+
+/*nav bar*/
+.navbar-horizontal {
+  position: relative;
+  height: 56px;
+  background-color: #2a2d32; }
+  .navbar-horizontal .nav {
+    width: 580px; }
+    .navbar-horizontal .nav ul {
+      height: 56px; }
+    .navbar-horizontal .nav li {
+      float: left;
+      width: 114px;
+      height: 56px;
+      display: inline-block; }
+    .navbar-horizontal .nav li:hover {
+      background-color: #248cec;
+      border-right: 2px solid black;
+      border-left: 2px solid black; }
+    .navbar-horizontal .nav a:hover {
+      color: #f4b60d; }
+    .navbar-horizontal .nav a {
+      display: block;
+      text-decoration: none;
+      width: 32px;
+      height: 56px;
+      color: #ffffff;
+      font-family: "Ubuntu Condensed";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      text-transform: uppercase;
+      padding-left: 41px;
+      margin-top: 20px; }
+    .navbar-horizontal .nav .nav__text1 {
+      position: absolute;
+      margin-left: -18px; }
+    .navbar-horizontal .nav .nav__text2 {
+      position: absolute;
+      margin-left: -18px; }
+  .navbar-horizontal input {
+    position: absolute;
+    float: right;
+    margin-top: -51px;
+    margin-left: 78.5%;
+    width: 241px;
+    height: 40px;
+    border: 1px solid #181a1d;
+    background-color: rgba(255, 255, 255, 0.05); }
+
+/*nav bar*/
+/*slick*/
+.sl {
+  margin-top: 50px; }
+
+/*slick*/
