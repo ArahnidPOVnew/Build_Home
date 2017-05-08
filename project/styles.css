@@ -87,3 +87,75 @@ body {
   margin-top: 50px; }
 
 /*slick*/
+/*wraper*/
+.wraper {
+  height: 330px;
+  position: relative; }
+  .wraper .wraper__text, .wraper .wraper__text1, .wraper .wraper__text2 {
+    float: left;
+    width: 33.333333333333336%;
+    margin-top: 70px; }
+    .wraper .wraper__text p, .wraper .wraper__text1 p, .wraper .wraper__text2 p {
+      width: 237px;
+      height: 53px;
+      color: #8a8a8a;
+      font-family: Arial;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-left: 100px;
+      margin-top: 18px;
+      margin-bottom: 80px; }
+    .wraper .wraper__text h1, .wraper .wraper__text1 h1, .wraper .wraper__text2 h1 {
+      margin-left: 100px;
+      margin-top: 18px; }
+    .wraper .wraper__text a, .wraper .wraper__text1 a, .wraper .wraper__text2 a {
+      margin-left: 100px;
+      width: 65px;
+      height: 11px;
+      color: #2a2b2e;
+      font-family: Ubuntu;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 20px;
+      text-decoration: none; }
+      .wraper .wraper__text a img, .wraper .wraper__text1 a img, .wraper .wraper__text2 a img {
+        margin-left: 8px; }
+  .wraper .wraper__text2 {
+    padding-top: 10px; }
+
+/*wraper*/
+/*blok*/
+article {
+  height: 500px;
+  background-color: #2a2d32; }
+  article a {
+    width: 204px;
+    height: 260px;
+    float: left;
+    margin-left: 62px;
+    margin-top: 10%;
+    text-decoration: none; }
+    article a img {
+      width: 204px;
+      height: 204px; }
+    article a figcaption {
+      width: 161px;
+      height: 13px;
+      color: #ffffff;
+      font-family: Ubuntu;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      margin-left: 18%;
+      margin-top: 2%; }
+  article figcaption:hover {
+    color: #aa8414; }
+
+/*blok*/
+/*text_article*/
+.text {
+  height: 545px;
+  background-color: #f7f7f7; }
+
+/*text_article*/
