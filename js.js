@@ -5,3 +5,6 @@
   autoplaySpeed: 3000,
 
       });
+$( function() {
+    $( "#accordion" ).accordion();
+  } );

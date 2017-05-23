@@ -159,3 +159,53 @@ article {
   background-color: #f7f7f7; }
 
 /*text_article*/
+/*info*/
+.info {
+  height: 547px;
+  position: relative; }
+  .info .info__1 {
+    height: 547px;
+    width: 50%;
+    float: left; }
+  .info .info__2 {
+    height: 547px;
+    width: 50%;
+    background-color: green;
+    float: right; }
+  .info .news {
+    width: 100%;
+    height: 50%;
+    margin-top: 3%; }
+  .info .powerful {
+    width: 100%;
+    height: 50%; }
+  .info h1 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    margin-left: 2%; }
+  .info .news__img1 img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 3%; }
+  .info .news__img3 img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 3%; }
+  .info .fs .fs1 {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; }
+  .info .news__img5 {
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: -1%; }
+
+/*info*/
+/*accordion*/
+/*accordion**/
